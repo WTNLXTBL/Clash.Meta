@@ -341,7 +341,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ secrets.DOCKERHUB_ACCOUNT }}/${{secrets.DOCKERHUB_REPO}}
+          images: wtnlxtbl/clash.meta
       - name: Show files
         run: |
           ls .
