@@ -97,5 +97,3 @@ API.
 ## License
 
 This software is released under the GPL-3.0 license.
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWTNLXTBL%2FClash.Meta.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWTNLXTBL%2FClash.Meta?ref=badge_large)
