@@ -36,7 +36,7 @@ A web dashboard with first-class support for this project has been created; it c
 
 ## Configration example
 
-Configuration example is located at [/docs/config.yaml](https://github.com/MetaCubeX/Clash.Meta/blob/Alpha/docs/config.yaml).
+Configuration example is located at [/docs/config.yaml](https://github.com/WTNLXTBL/Clash.Meta/blob/main/docs/config.yaml).
 
 ## Docs
 
@@ -50,7 +50,7 @@ Requirements:
 Build Clash.Meta:
 
 ```shell
-git clone https://github.com/MetaCubeX/Clash.Meta.git
+git clone https://github.com/WTNLXTBL/Clash.Meta.git
 cd Clash.Meta && go mod download
 go build
 ```
@@ -87,7 +87,7 @@ API.
 
 ## Credits
 
-- [Dreamacro/clash](https://github.com/Dreamacro/clash)
+- [Dreamacro/clash](https://github.com/Dreamacro/clash)(Deleted)
 - [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - [riobard/go-shadowsocks2](https://github.com/riobard/go-shadowsocks2)
 - [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core)
@@ -98,4 +98,4 @@ API.
 
 This software is released under the GPL-3.0 license.
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDreamacro%2Fclash.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDreamacro%2Fclash?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWTNLXTBL%2FClash.Meta.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWTNLXTBL%2FClash.Meta?ref=badge_large)
