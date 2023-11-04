@@ -5,14 +5,14 @@ on:
     paths-ignore:
       - "docs/**"
       - "README.md"
-      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/**"
     branches:
-      - Alpha
+      - main
     tags:
       - "v*"
   pull_request_target:
     branches:
-      - Alpha
+      - main
       
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
@@ -368,5 +368,5 @@ jobs:
             linux/arm64/v8
             linux/arm/v7
           #            linux/riscv64
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: wtnlxtbl/clash.meta:main
           labels: ${{ steps.meta.outputs.labels }}
