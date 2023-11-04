@@ -17,9 +17,7 @@ on:
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
   cancel-in-progress: true
-  
-env:
-  REGISTRY: docker.io
+
 jobs:
   Build:
     permissions: write-all
@@ -343,7 +341,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ env.REGISTRY }}/${{ secrets.DOCKERHUB_ACCOUNT }}/${{secrets.DOCKERHUB_REPO}}
+          images: ${{ secrets.DOCKERHUB_ACCOUNT }}/${{secrets.DOCKERHUB_REPO}}
       - name: Show files
         run: |
           ls .
@@ -352,7 +350,6 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: docker/login-action@v2
         with:
-          registry: ${{ env.REGISTRY }}
           username: ${{ secrets.DOCKER_HUB_USER }}
           password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
